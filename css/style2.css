@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E0E0E0;
+}
+
+.sidebar{
+    width: 382px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: #121212;
+    float: left;
+}
+
+.app{
+    display: flex;
+    width: auto;
+    padding: 5%;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin-right: 5%;
+}
+
+.app h2{
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 40px;
+    color: #878787;
+}
+
+.iniform{
+    position: absolute;
+    padding-top: 28px;
+    padding-left: 430px;
+}
+
+tr td input{
+    width: 500px
+}
+
+.iniform {
+    margin-top: 20px;
+}
+
