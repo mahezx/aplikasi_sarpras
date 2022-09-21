@@ -9,76 +9,90 @@ body{
 /* sidebar */
 
 .sidebar{
-    width: 382px;
+    width: 250px;
     height: 100vh;
     left: 0px;
     top: 0px;
-    background: #121212;
+    background-color: #121212;
     float: left;
-    flex-direction: column ;
+    flex-direction: column;
 }
 
+/* logo app dan title */
 .app{
     display: flex;
     width: auto;
     padding: 5%;
 }
 
-.logo{
-    width: 60px;
-    height: 60px;
+.logo img{
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background: #FFFFFF;
-    margin-right: 5%;
 }
 
 .app h2{
-    font-size: 23px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
+    margin-left: 5%;
 }
 
 /* menu sidebar */
+
+ul{
+    margin-top: 10%;
+    padding-left: 10.1%;
+}
+
 ul li{
     list-style: none;
+    margin-bottom: 6%;
 }
 
 ul li a{
     display: inline-block;
-    margin-left: 40px;
-    font-size: 20px;
+    margin-left: 20px;
     text-decoration: none;
+    font-size: 14px;
     line-height: 40px;
-    color: #878787;
+    color: #e0e0e0;
+    margin-bottom: 10px;
 }
+
 
 /* form */
 
 .iniform{
+    box-sizing: border-box;
     display: flex;
     margin-top: 20px;
     margin-left: 40px;
     position: relative;
     flex-direction: column;
     background-color: #FFFFFF;
-    height: 90vh;
-    width: 65vw ;
+    height: 95.8vh;
+    width: 75.05vw ;
     border-radius: 30px;
-    padding: 20px 5px;
+    padding: 20px ;
     padding-left: 40px;
 }
 
+/* table input */
+
 tr td{
     width:200px ;
-    padding: 18px 3px;
+    padding: 15px 19px 10px 3px  ;
 }
 
 td input{
-    width: 670px;
+    width: 680px;
     height: 30px;
     border-radius: 10px;  
 }
 
+/* btn update */
 .btn{
     background-color: green;
     border-radius: 5px;
@@ -88,7 +102,10 @@ td input{
     margin-top: 1%;
     border: none;
     float: right;
-    margin-right: 35px;
+    margin-right: 20px;
+    cursor: pointer;
 }
 
-
+i{
+    color: #FFFFFF;
+}

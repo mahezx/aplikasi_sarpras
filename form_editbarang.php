@@ -19,6 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style2.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Edit Data Barang</title>
 </head>
 <body>
@@ -26,14 +27,14 @@
 
     <!-- logo app -->
         <div class="app">
-            <div class="logo"></div>
+            <div class="logo"><img src="img/smktb.jpg" alt=""></div>
             <h2>STARBHAK SARPRAS</h2>
         </div>
 
         <!-- menu sidebar -->
         <ul>
-            <li><a href="table_siswa.php">Data Siswa</a></li>
-            <li><a href="table_barang.php">Data Barang</a></li>
+            <li><i class="fa-sharp fa-solid fa-people-group"></i><a href="table_siswa.php">Data Siswa</a></li>
+            <li><i class="fa-sharp fa-solid fa-box-open"></i><a href="table_barang.php">Data Barang</a></li>
         </ul>
     </div>
     <div class="iniform">

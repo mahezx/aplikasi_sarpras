@@ -7,7 +7,7 @@
     
     $nomor= $_GET['nomor'];
 
-    $sql= "DELETE FROM tbbarang WHERE no_sewa='$nomor'";
+    $sql= "DELETE FROM tbbarang WHERE nomor='$nomor'";
     $query= mysqli_query($connect,$sql);
 
     if($query){

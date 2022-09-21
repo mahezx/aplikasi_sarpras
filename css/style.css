@@ -7,8 +7,9 @@ body{
 }
 
 /* sidebarnya */
+
 .sidebar{
-    width: 382px;
+    width: 250px;
     height: 100vh;
     left: 0px;
     top: 0px;
@@ -24,33 +25,40 @@ body{
     padding: 5%;
 }
 
-.logo{
-    width: 60px;
-    height: 60px;
+.logo img{
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background: #FFFFFF;
-    margin-right: 5%;
 }
 
 .app h2{
-    font-size: 23px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
+    margin-left: 5%;
 }
 
 /* list menu */
 
+ul{
+    margin-top: 10%;
+    padding-left: 10.1%;
+}
+
 ul li{
     list-style: none;
+    margin-bottom: 6%;
 }
 
 ul li a{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 20px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 40px;
     color: #e0e0e0;
+    margin-bottom: 10px;
 }
 
 /* konten */
@@ -61,30 +69,43 @@ ul li a{
     position: relative;
     flex-direction: column;
     background-color: #FFFFFF;
-    height: 90vh;
-    width: 65vw ;
+    height: 89.1vh;
+    width: 71.5vw ;
     border-radius: 30px;
     padding: 20px 5px;
     padding-left: 40px;
 }
 
+.content h2{
+    margin-bottom: 5%;
+}
+
+.content a{
+    width: 100px;
+}
 
 /* button submit */
+
 .btn{
-    background-color: green;
+    position: relative;
+    margin-bottom: 30%;
     border-radius: 5px;
-    margin-bottom: 2%;
     width: 100px;
     height: 40px;
-    margin-top: 5%;
-    border: none;
+    border: solid 1px black;
+    background-color: white;
 }
 
 .btn a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
+.btn:hover{
+    background-color: green;
+    color: #FFFFFF;
+    border: none;
+}
 /* table */
 
 .table_konten table{
@@ -109,4 +130,24 @@ ul li a{
 .table_konten tbody tr{
     border-bottom: solid #e0e0e0;
     text-align: center;
+}
+
+.btn-edit{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-hapus{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+i{
+    color: #FFFFFF;
 }

@@ -1,8 +1,8 @@
 <?php
     include 'koneksi.php';
 
-    if(isset($_POST['tambah2'])) {
-        $nomor = $_POST ['no'];
+    if(isset($_POST['tambah'])) {
+        $nomor = $_POST ['nomor'];
         $nisn = $_POST ['nisn'];
         $nama_siswa = $_POST ['nama'];
         $nomor_telepon = $_POST ['telepon'];
