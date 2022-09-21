@@ -1,15 +1,14 @@
 <?php
     include 'koneksi.php';
 
-    if(isset($_GET['no_sewa'])){
+    if(isset($_GET['nomor'])){
         header('Location: table_barang.php');
     }
     
-    $no_sewa= $_GET['no_sewa'];
+    $nomor= $_GET['nomor'];
 
-    $sql= "DELETE FROM tbbarang WHERE no_sewa='$no_sewa'";
+    $sql= "DELETE FROM tbbarang WHERE no_sewa='$nomor'";
     $query= mysqli_query($connect,$sql);
-
 
     if($query){
         header('Location: table_barang.php');

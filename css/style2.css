@@ -2,15 +2,20 @@ body{
     margin: 0;
     padding: 0;
     background-color: #E0E0E0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
 }
+
+/* sidebar */
 
 .sidebar{
     width: 382px;
-    height: 1024px;
+    height: 100vh;
     left: 0px;
     top: 0px;
     background: #121212;
     float: left;
+    flex-direction: column ;
 }
 
 .app{
@@ -33,6 +38,7 @@ body{
     color: white;
 }
 
+/* menu sidebar */
 ul li{
     list-style: none;
 }
@@ -46,17 +52,43 @@ ul li a{
     color: #878787;
 }
 
+/* form */
+
 .iniform{
-    position: absolute;
-    padding-top: 28px;
-    padding-left: 430px;
-}
-
-tr td input{
-    width: 500px
-}
-
-.iniform {
+    display: flex;
     margin-top: 20px;
+    margin-left: 40px;
+    position: relative;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 90vh;
+    width: 65vw ;
+    border-radius: 30px;
+    padding: 20px 5px;
+    padding-left: 40px;
 }
+
+tr td{
+    width:200px ;
+    padding: 18px 3px;
+}
+
+td input{
+    width: 670px;
+    height: 30px;
+    border-radius: 10px;  
+}
+
+.btn{
+    background-color: green;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    margin-top: 1%;
+    border: none;
+    float: right;
+    margin-right: 35px;
+}
+
 
